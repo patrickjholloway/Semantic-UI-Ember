@@ -1,6 +1,6 @@
 {
-  "name": "semantic-ui-ember",
-  "version": "3.0.2",
+  "name": "kinvey-semantic-ui-ember",
+  "version": "3.0.3",
   "description": "The Official Semantic UI Addon for Ember applications",
   "keywords": [
     "ember-addon"
@@ -42,7 +42,7 @@
     "ember-cli-htmlbars": "^2.0.3",
     "ember-promise-utils": "^0.1.1",
     "ember-runtime-enumerable-includes-polyfill": "2.0.0",
-    "semantic-ui-css": "^2.2.14"
+    "semantic-ui": "2.2.14"
   },
   "devDependencies": {
     "babel-plugin-transform-es2015-block-scoping": "^6.24.1",

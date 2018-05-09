@@ -6,16 +6,16 @@ const fs = require('fs')
 
 const defaults = {
   import: {
-    css: true,
+    css: false,
     javascript: true,
     images: true,
     fonts: true
   },
   source: {
-    css: 'node_modules/semantic-ui-css',
-    javascript: 'node_modules/semantic-ui-css',
-    images: 'node_modules/semantic-ui-css/themes/default/assets/images',
-    fonts: 'node_modules/semantic-ui-css/themes/default/assets/fonts'
+    css: 'node_modules/semantic-ui/dist/',
+    javascript: 'node_modules/semantic-ui/dist/',
+    images: 'node_modules/semantic-ui/dist/themes/default/assets/images',
+    fonts: 'node_modules/semantic-ui/dist/themes/default/assets/fonts'
   },
   destination: {
     images: 'assets/themes/default/assets/images',
@@ -53,15 +53,6 @@ module.exports = {
 
     if (!fs.existsSync(defaults.source.css) && fs.existsSync(custom.source.css)) {
       defaults.source = custom.source
-    }
-
-    const importCss = getDefault('import', 'css', [options, defaults])
-    if (importCss) {
-      const sourceCss = getDefault('source', 'css', [options, defaults])
-      app.import({
-        development: path.join(sourceCss, 'semantic.css'),
-        production: path.join(sourceCss, 'semantic.min.css')
-      });
     }
 
     const importJavascript = getDefault('import', 'javascript', [options, defaults])

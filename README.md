@@ -1,3 +1,5 @@
+This is a fork maintained by and for Kinvey @ Progress Software
+
 ![Semantic](http://www.semantic-ui.com/images/logo.png)
 
 # Semantic-UI-Ember
@@ -11,9 +13,9 @@
 This is the official Ember library for the Semantic-UI modules.
 
 ### Support
-The NodeJS and EmberJS versions respective tags are _tested_ on. It might work with versions not listed as well 
+The NodeJS and EmberJS versions respective tags are _tested_ on. It might work with versions not listed as well
 
-#### 3.0 
+#### 3.0
 
 ![](https://img.shields.io/badge/nodejs-6-brightgreen.svg)
 ![](https://img.shields.io/badge/nodejs-8-brightgreen.svg)
@@ -40,7 +42,7 @@ The NodeJS and EmberJS versions respective tags are _tested_ on. It might work w
 
 ### v3
 
-Install this through Ember CLI. We support Ember 2.12 LTS through 3.x 
+Install this through Ember CLI. We support Ember 2.12 LTS through 3.x
 
 ```
 ember install semantic-ui-ember
@@ -49,7 +51,7 @@ ember install semantic-ui-ember
 
 ### v2.1
 
-Install this add-on through Ember CLI. We support Ember versions 2.x and above 
+Install this add-on through Ember CLI. We support Ember versions 2.x and above
 
 _NOTE: This is a `bower`-less install_
 
